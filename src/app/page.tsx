@@ -1,5 +1,7 @@
 "use client";
 import Link from 'next/link';
+import LowerForm from "@/components/mine/LowerForm";
+import UpperForm from "@/components/mine/UpperForm";
 import Image from "next/image";
 
 export default function Home() {
@@ -9,6 +11,8 @@ export default function Home() {
       <Link className="hover:font-bold" href="./FinishPage">
         Article
       </Link>
+      <UpperForm />
+      <LowerForm />
     </>
   );
 }
