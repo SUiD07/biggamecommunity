@@ -1,8 +1,9 @@
 "use client";
 import Link from 'next/link';
-import LowerForm from "@/components/mine/LowerForm";
-import UpperForm from "@/components/mine/UpperForm";
+import LowerForm from "@/app/mine/LowerForm";
+import UpperForm from "@/app/mine/UpperForm";
 import Image from "next/image";
+import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (
@@ -13,6 +14,10 @@ export default function Home() {
       </Link>
       <UpperForm />
       <LowerForm />
+
+      <div>
+        <Button>Click me</Button>
+      </div>
     </>
   );
 }
