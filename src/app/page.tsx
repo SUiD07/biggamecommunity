@@ -3,6 +3,7 @@ import Link from 'next/link';
 import UpperForm from "../components/mine/UpperForm";
 import Image from "next/image";
 import { Button } from "@/components/ui/button"
+import { LowerForm } from '@/components/mine/LowerForm';
 
 export default function Home() {
   return (
@@ -10,7 +11,8 @@ export default function Home() {
       <Link className="hover:font-bold" href="./FinishPage">
         Article
       </Link>
-      <UpperForm />
+      <LowerForm/>
+      {/* <UpperForm /> */}
     </>
   );
 }
