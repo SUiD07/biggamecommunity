@@ -27,6 +27,7 @@ export default function FinishPage() {
                     </div>
 
 
+
                 </div>
             </div>
         </div>
