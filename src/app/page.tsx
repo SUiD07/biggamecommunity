@@ -1,7 +1,7 @@
 "use client";
 import Link from 'next/link';
-import LowerForm from "@/app/mine/LowerForm";
-import UpperForm from "@/app/mine/UpperForm";
+import LowerForm from "../components/mine/LowerForm";
+import UpperForm from "../components/mine/UpperForm";
 import Image from "next/image";
 import { Button } from "@/components/ui/button"
 
